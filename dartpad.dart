@@ -58,7 +58,7 @@ class _TimerScreenState extends State<TimerScreen> {
   
   Widget build(BuildContext context) {
     return Center(
-      child: ListenableBuilder(listenable: notifier, builder: (context, child) => Column(mainAxisAlignment: MainAxisAlignment.center, mainAxisSize: MainAxisSize.min ,children: [
+      child: ListenableBuilder(listenable: notifier, builder: (context, child) => Column(mainAxisAlignment: MainAxisAlignment.start, mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start ,children: [
         Text('Days: ${days}'),
         Text('Hours: ${hours}'),
         Text('Min: ${minutes}'),
