@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: TimerScreen(DateTime.now().subtract(Duration(days: 10, hours: 3, minutes: 10, seconds: 35)))));
+        body: TimerScreen(DateTime(2024, 8, 23, 2, 0))));
   }
 
 }
